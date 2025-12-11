@@ -1,0 +1,23 @@
+{
+  "name": "OnBazzar",
+  "short_name": "OnBazzar",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "OnBazzar — A modern online shopping experience.",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/4tx06Tv/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/TkVTn1d/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

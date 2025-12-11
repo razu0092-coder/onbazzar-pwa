@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OnBazzar</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png" type="image/png">
+</head>
+<body>
+<h1>Welcome to OnBazzar</h1>
+<p>Modern online shopping experience.</p>
+
+
+<script>
+if ('serviceWorker' in navigator) {
+window.addEventListener('load', () => {
+navigator.serviceWorker.register('/sw.js')
+.then(reg => console.log('Service Worker registered', reg))
+.catch(err => console.log('Service Worker registration failed', err));
+});
+}
+</script>
+</body>
+</html>
